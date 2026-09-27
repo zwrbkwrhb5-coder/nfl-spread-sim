@@ -1,0 +1,94 @@
+{
+  "spread": {
+    "games": 1000,
+    "base_mae": 9.786903531915778,
+    "qb_mae": 9.779669828825336,
+    "delta_mae_qb_minus_base": -0.007233703090442134,
+    "base_rmse": 12.73819467738244,
+    "qb_rmse": 12.703367510316973,
+    "delta_rmse_qb_minus_base": -0.03482716706546718,
+    "by_season": [
+      {
+        "season": 2022,
+        "games": 245,
+        "base_mae": 8.952321277098177,
+        "base_rmse": 11.617052917981361,
+        "plus_qb_mae": 8.92612336945946,
+        "plus_qb_rmse": 11.58297473851761
+      },
+      {
+        "season": 2023,
+        "games": 250,
+        "base_mae": 10.19838791862692,
+        "base_rmse": 13.351541168919374,
+        "plus_qb_mae": 10.313084477095986,
+        "plus_qb_rmse": 13.354913169008334
+      },
+      {
+        "season": 2024,
+        "games": 258,
+        "base_mae": 9.936051225538895,
+        "base_rmse": 12.945900420827309,
+        "plus_qb_mae": 9.971100805234187,
+        "plus_qb_rmse": 12.98342417973959
+      },
+      {
+        "season": 2025,
+        "games": 247,
+        "base_mae": 10.042455964295383,
+        "base_rmse": 13.012506524994807,
+        "plus_qb_mae": 9.886455369568223,
+        "plus_qb_rmse": 12.862700278361379
+      }
+    ]
+  },
+  "total": {
+    "games": 1000,
+    "base_mae": 10.497703336951812,
+    "qb_mae": 10.440360679692358,
+    "delta_mae_qb_minus_base": -0.0573426572594542,
+    "base_rmse": 13.323535165617027,
+    "qb_rmse": 13.282993946971182,
+    "delta_rmse_qb_minus_base": -0.04054121864584559,
+    "by_season": [
+      {
+        "season": 2022,
+        "games": 245,
+        "base_mae": 11.193030324655403,
+        "base_rmse": 13.953629361045072,
+        "plus_qb_mae": 11.162348174651363,
+        "plus_qb_rmse": 13.913737510431568
+      },
+      {
+        "season": 2023,
+        "games": 250,
+        "base_mae": 10.446146556971438,
+        "base_rmse": 13.329340386451173,
+        "plus_qb_mae": 10.359863616821618,
+        "plus_qb_rmse": 13.277628274320868
+      },
+      {
+        "season": 2024,
+        "games": 258,
+        "base_mae": 9.777147897539457,
+        "base_rmse": 12.637899130979108,
+        "plus_qb_mae": 9.62372797204293,
+        "plus_qb_rmse": 12.485218203698174
+      },
+      {
+        "season": 2025,
+        "games": 247,
+        "base_mae": 10.612834455883394,
+        "base_rmse": 13.40883765083231,
+        "plus_qb_mae": 10.658694963199565,
+        "plus_qb_rmse": 13.496092679275717
+      }
+    ]
+  },
+  "interpretation": {
+    "negative_delta_mae": "QB layer improved MAE",
+    "negative_delta_rmse": "QB layer improved RMSE",
+    "common_sample": true,
+    "no_random_split": true
+  }
+}

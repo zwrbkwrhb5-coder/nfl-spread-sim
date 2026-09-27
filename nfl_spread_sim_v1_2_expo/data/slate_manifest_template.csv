@@ -1,0 +1,2 @@
+game_id,home_team,away_team,feature_csv
+example_game,BUF,MIA,data/example_matchup_features.csv

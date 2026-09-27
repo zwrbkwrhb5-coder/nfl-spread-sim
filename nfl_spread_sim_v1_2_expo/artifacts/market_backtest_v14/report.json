@@ -1,0 +1,28 @@
+{
+  "matched_games": 1087,
+  "selected_bets": 906,
+  "min_edge": 0.0,
+  "spread": {
+    "bets": 531,
+    "settled": 517,
+    "pushes": 14,
+    "win_rate": 0.5241779497098646,
+    "units": 10.985580918085727,
+    "roi": 0.021248705837689993,
+    "avg_edge": 0.05948954585623751,
+    "imputed_price_rate": 0.0,
+    "brier": 0.2569139907866893
+  },
+  "total": {
+    "bets": 375,
+    "settled": 371,
+    "pushes": 4,
+    "win_rate": 0.5175202156334232,
+    "units": 1.214321600509082,
+    "roi": 0.003273104044498873,
+    "avg_edge": 0.06517116155984182,
+    "imputed_price_rate": 0.0,
+    "brier": 0.25734848930652326
+  },
+  "important_note": "Closing lines are used only as evaluation market lines. Do not treat them as pregame model features unless they were available at the prediction timestamp."
+}

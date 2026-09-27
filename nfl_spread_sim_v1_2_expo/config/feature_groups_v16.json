@@ -1,0 +1,36 @@
+{
+  "base": [
+    "diff_off_epa",
+    "diff_def_epa",
+    "diff_off_success",
+    "diff_def_success"
+  ],
+  "qb": [
+    "diff_qb_epa_per_dropback",
+    "diff_qb_success_rate",
+    "diff_qb_cpoe",
+    "diff_qb_sack_rate"
+  ],
+  "opening_drive": [
+    "home_opening_score_matchup",
+    "away_opening_score_matchup",
+    "diff_opening_drive_epa"
+  ],
+  "injuries": [
+    "diff_total_injury_impact",
+    "diff_qb_injury_impact",
+    "diff_ol_injury_impact",
+    "diff_secondary_injury_impact"
+  ],
+  "context": [
+    "rest_days_diff",
+    "travel_miles_diff",
+    "timezone_shift_diff",
+    "divisional_game"
+  ],
+  "stadium": [
+    "stadium_loudness_index",
+    "indoor",
+    "altitude_kft"
+  ]
+}

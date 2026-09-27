@@ -1,0 +1,26 @@
+{
+  "matched_games_after_warmup": 1023,
+  "selected_bets": 1536,
+  "week_safe": true,
+  "same_week_results_used": false,
+  "spread": {
+    "bets": 863,
+    "settled": 844,
+    "pushes": 19,
+    "win_rate": 0.509478672985782,
+    "units": -14.147711013744114,
+    "roi": -0.01676269077457834,
+    "avg_edge": 0.04250544066747887,
+    "brier": 0.2564440223090496
+  },
+  "total": {
+    "bets": 673,
+    "settled": 667,
+    "pushes": 6,
+    "win_rate": 0.52023988005997,
+    "units": 0.8759396581067804,
+    "roi": 0.0013132528607298164,
+    "avg_edge": 0.0576341943937258,
+    "brier": 0.257043914329773
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "spread": {
+    "games": 753,
+    "base_mae": 9.744641902446194,
+    "injury_mae": 9.74802289126764,
+    "delta_mae": 0.003380988821445996,
+    "base_rmse": 12.651102976841582,
+    "injury_rmse": 12.629211027194167,
+    "delta_rmse": -0.021891949647415032,
+    "by_season": [
+      {
+        "season": 2022,
+        "games": 245,
+        "base_mae": 8.92612336945946,
+        "base_rmse": 11.58297473851761,
+        "plus_injury_mae": 8.974809092592704,
+        "plus_injury_rmse": 11.60855289844434
+      },
+      {
+        "season": 2023,
+        "games": 250,
+        "base_mae": 10.313084477095986,
+        "base_rmse": 13.354913169008334,
+        "plus_injury_mae": 10.324055567608884,
+        "plus_injury_rmse": 13.386236077173253
+      },
+      {
+        "season": 2024,
+        "games": 258,
+        "base_mae": 9.971100805234187,
+        "base_rmse": 12.98342417973959,
+        "plus_injury_mae": 9.924105106732945,
+        "plus_injury_rmse": 12.864889240562135
+      }
+    ]
+  },
+  "total": {
+    "games": 753,
+    "base_mae": 10.368742395460908,
+    "injury_mae": 10.36487065733625,
+    "delta_mae": -0.0038717381246584637,
+    "base_rmse": 13.213093034780982,
+    "injury_rmse": 13.210624073473435,
+    "delta_rmse": -0.0024689613075477013,
+    "by_season": [
+      {
+        "season": 2022,
+        "games": 245,
+        "base_mae": 11.162348174651363,
+        "base_rmse": 13.913737510431568,
+        "plus_injury_mae": 11.177598573258743,
+        "plus_injury_rmse": 13.946105135858813
+      },
+      {
+        "season": 2023,
+        "games": 250,
+        "base_mae": 10.359863616821618,
+        "base_rmse": 13.277628274320868,
+        "plus_injury_mae": 10.359884983775018,
+        "plus_injury_rmse": 13.269517313589118
+      },
+      {
+        "season": 2024,
+        "games": 258,
+        "base_mae": 9.623727972042929,
+        "base_rmse": 12.485218203698174,
+        "plus_injury_mae": 9.597925227062206,
+        "plus_injury_rmse": 12.455135041251197
+      }
+    ]
+  },
+  "notes": {
+    "common_sample": true,
+    "qb_baseline": true,
+    "max_test_season": 2024,
+    "reason_for_2024_default": "public nflverse injury coverage is not assumed beyond 2024"
+  }
+}

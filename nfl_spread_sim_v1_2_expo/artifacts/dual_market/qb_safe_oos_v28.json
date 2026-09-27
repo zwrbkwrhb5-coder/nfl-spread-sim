@@ -1,0 +1,86 @@
+{
+  "common_sample_games": 1000,
+  "common_sample": true,
+  "spread": {
+    "raw_mae": 9.789422523430085,
+    "safe_mae": 9.816225593394027,
+    "delta_mae_safe_minus_raw": 0.026803069963942557,
+    "raw_rmse": 12.721047646722727,
+    "safe_rmse": 12.761432285352488,
+    "delta_rmse_safe_minus_raw": 0.04038463862976163
+  },
+  "total": {
+    "raw_mae": 10.417790476027292,
+    "safe_mae": 10.435978230511697,
+    "delta_mae_safe_minus_raw": 0.018187754484404007,
+    "raw_rmse": 13.22869515428016,
+    "safe_rmse": 13.231341364044056,
+    "delta_rmse_safe_minus_raw": 0.0026462097638972303
+  },
+  "by_season": [
+    {
+      "season": 2022,
+      "games": 245,
+      "spread_raw_mae": 8.9411120451428,
+      "spread_safe_mae": 8.948132201478643,
+      "spread_delta_mae": 0.007020156335842742,
+      "spread_raw_rmse": 11.609139803816323,
+      "spread_safe_rmse": 11.643156862493537,
+      "spread_delta_rmse": 0.03401705867721461,
+      "total_raw_mae": 11.067876752884164,
+      "total_safe_mae": 11.008198280317131,
+      "total_delta_mae": -0.059678472567032514,
+      "total_raw_rmse": 13.872191495187854,
+      "total_safe_rmse": 13.834047990622016,
+      "total_delta_rmse": -0.038143504565837816
+    },
+    {
+      "season": 2023,
+      "games": 250,
+      "spread_raw_mae": 10.347038107125936,
+      "spread_safe_mae": 10.392058283609934,
+      "spread_delta_mae": 0.04502017648399814,
+      "spread_raw_rmse": 13.394304076384158,
+      "spread_safe_rmse": 13.48216958814907,
+      "spread_delta_rmse": 0.08786551176491209,
+      "total_raw_mae": 10.35628028034596,
+      "total_safe_mae": 10.322485771378409,
+      "total_delta_mae": -0.033794508967551096,
+      "total_raw_rmse": 13.197903327649586,
+      "total_safe_rmse": 13.119050225605669,
+      "total_delta_rmse": -0.07885310204391693
+    },
+    {
+      "season": 2024,
+      "games": 258,
+      "spread_raw_mae": 9.965787437772452,
+      "spread_safe_mae": 9.952364107393754,
+      "spread_delta_mae": -0.01342333037869814,
+      "spread_raw_rmse": 12.986563905847724,
+      "spread_safe_rmse": 12.980147244281214,
+      "spread_delta_rmse": -0.006416661566509774,
+      "total_raw_mae": 9.70582371468062,
+      "total_safe_mae": 9.86855002274506,
+      "total_delta_mae": 0.16272630806444077,
+      "total_raw_rmse": 12.57180564141184,
+      "total_safe_rmse": 12.714526065325847,
+      "total_delta_rmse": 0.14272042391400674
+    },
+    {
+      "season": 2025,
+      "games": 247,
+      "spread_raw_mae": 9.882256626086324,
+      "spread_safe_mae": 9.952261916686995,
+      "spread_delta_mae": 0.07000529060067073,
+      "spread_raw_rmse": 12.8651776841416,
+      "spread_safe_rmse": 12.912706348096156,
+      "spread_delta_rmse": 0.047528663954556905,
+      "total_raw_mae": 10.578899121848515,
+      "total_safe_mae": 10.575960741381264,
+      "total_delta_mae": -0.002938380467250923,
+      "total_raw_rmse": 13.307718828188193,
+      "total_safe_rmse": 13.287001316138367,
+      "total_delta_rmse": -0.02071751204982597
+    }
+  ]
+}

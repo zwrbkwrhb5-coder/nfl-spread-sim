@@ -1,0 +1,2 @@
+game_id,season,week,away_team,home_team,home_spread,total_line,home_spread_odds,away_spread_odds,over_odds,under_odds,market_updated_at,market_source,home_qb_id,home_qb_name,away_qb_id,away_qb_name,roof_override,stadium_lat,stadium_lon,temp,wind
+2026_03_A_B,2026,3,A,B,-3.5,46.5,-110,-110,-110,-110,2026-09-27T15:00:00Z,manual_confirmed,,,,,,,,,,

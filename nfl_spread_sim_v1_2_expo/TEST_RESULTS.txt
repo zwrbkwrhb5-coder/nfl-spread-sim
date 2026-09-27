@@ -1,0 +1,14 @@
+Software checks performed in the assistant sandbox
+
+24 automated tests passed (pytest).
+CLI integration test passed: synthetic training data -> saved model -> reload -> 1,000,000 paired score draws -> spread+total output.
+Python compilation check passed.
+
+Tests are synthetic and verify program behavior, not NFL predictive accuracy.
+Real historical training was NOT run: the external data download failed in this sandbox (network/DNS).
+No claims of improved ATS performance, totals performance, calibration or profitability are established.
+No Expo files, user GitHub files or live backend were changed.
+
+The prepared-frame CLI uses CSV outputs. The real PBP loader still requires pyarrow, which the setup instructions install.
+
+Test environment: Python 3.13.5, numpy 2.3.5, pandas 2.2.3, scikit-learn 1.8.0, pytest 9.0.2.

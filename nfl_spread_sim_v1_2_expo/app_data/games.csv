@@ -1,0 +1,2 @@
+game_id,week,kickoff,away_team,home_team,feature_csv
+example_game,1,2026-09-27 13:00 ET,MIA,BUF,app_data/features/example_game.csv

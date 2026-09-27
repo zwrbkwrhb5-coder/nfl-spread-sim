@@ -1,0 +1,53 @@
+{
+  "validation": {
+    "prior_week_residuals_only": true,
+    "same_week_results_used": false,
+    "isotonic_uses_prior_weeks_only": true,
+    "threshold_tuning_uses_prior_weeks_only": true,
+    "probability_shrinkage_tuned_on_prior_weeks_only": true
+  },
+  "raw_no_threshold": {
+    "spread": {
+      "bets": 834,
+      "settled": 816,
+      "pushes": 18,
+      "win_rate": 0.5159313725490197,
+      "units": -4.6885355725131195,
+      "roi": -0.005621745290783117,
+      "brier": 0.2645593206252963,
+      "avg_selected_edge": 0.08995559277002936
+    },
+    "total": {
+      "bets": 791,
+      "settled": 785,
+      "pushes": 6,
+      "win_rate": 0.5235668789808917,
+      "units": 4.511310995031696,
+      "roi": 0.005703300878674711,
+      "brier": 0.2565724719715634,
+      "avg_selected_edge": 0.07223022837486125
+    }
+  },
+  "calibrated_selected": {
+    "spread": {
+      "bets": 141,
+      "settled": 138,
+      "pushes": 3,
+      "win_rate": 0.4782608695652174,
+      "units": -6.7662929477543,
+      "roi": -0.0479878932464844,
+      "brier": 0.2556350114289378,
+      "avg_selected_edge": 0.026867013061204502
+    },
+    "total": {
+      "bets": 176,
+      "settled": 175,
+      "pushes": 1,
+      "win_rate": 0.5257142857142857,
+      "units": 4.041790722135264,
+      "roi": 0.02296472001213218,
+      "brier": 0.2502904410419368,
+      "avg_selected_edge": 0.02459402963794782
+    }
+  }
+}

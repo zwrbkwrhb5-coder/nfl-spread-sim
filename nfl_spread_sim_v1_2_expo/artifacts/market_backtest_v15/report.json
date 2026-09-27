@@ -1,0 +1,49 @@
+{
+  "matched_games_after_warmup": 1037,
+  "selected_bets": 1478,
+  "min_edge": 0.0,
+  "strict_walk_forward": true,
+  "residuals_use_future_games": false,
+  "calibration_uses_future_games": false,
+  "spread": {
+    "bets": 821,
+    "settled": 804,
+    "pushes": 17,
+    "win_rate": 0.503731343283582,
+    "win_rate_95ci": [
+      0.46923489531561474,
+      0.5381923032837146
+    ],
+    "units": -20.862097157411366,
+    "roi": -0.02594788203658129,
+    "roi_95ci_bootstrap": [
+      -0.09373962010298652,
+      0.039958790662667554
+    ],
+    "avg_edge": 0.042378358612052,
+    "brier": 0.2592564938873644
+  },
+  "total": {
+    "bets": 657,
+    "settled": 651,
+    "pushes": 6,
+    "win_rate": 0.522273425499232,
+    "win_rate_95ci": [
+      0.4838841537299076,
+      0.560401365088689
+    ],
+    "units": 3.7867045277646696,
+    "roi": 0.005816750426673851,
+    "roi_95ci_bootstrap": [
+      -0.06310069009084388,
+      0.07886817668026956
+    ],
+    "avg_edge": 0.0562315972598352,
+    "brier": 0.25702443797769897
+  },
+  "notes": [
+    "Each game uses only residuals from earlier games in chronological order.",
+    "Probability calibration uses only earlier rows for the same market/side.",
+    "ROI confidence intervals are bootstrap intervals, not guarantees of future profitability."
+  ]
+}

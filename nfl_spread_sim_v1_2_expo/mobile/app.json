@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "NFL Spread Simulator",
+    "slug": "nfl-spread-simulator",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "scheme": "nflspread",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

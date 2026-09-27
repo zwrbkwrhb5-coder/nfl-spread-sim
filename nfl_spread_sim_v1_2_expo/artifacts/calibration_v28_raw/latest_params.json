@@ -1,0 +1,14 @@
+{
+  "spread": {
+    "probability_shrinkage_lambda": 0.25,
+    "minimum_edge": 0.0,
+    "selection_mode": "tuned",
+    "prior_rows": 938
+  },
+  "total": {
+    "probability_shrinkage_lambda": 0.25,
+    "minimum_edge": 0.01,
+    "selection_mode": "tuned",
+    "prior_rows": 938
+  }
+}

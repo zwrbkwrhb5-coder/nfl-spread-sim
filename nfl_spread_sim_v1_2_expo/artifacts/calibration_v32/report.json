@@ -1,0 +1,36 @@
+{
+  "validation": {
+    "platt_all_source_weeks_strictly_prior": true,
+    "platt_rows": 3700,
+    "platt_fallback_rows": 52
+  },
+  "design": {
+    "methods": [
+      "raw",
+      "isotonic_v26",
+      "platt_v32"
+    ],
+    "platt_input": "logit(raw_probability)",
+    "platt_training": "strict prior weeks within market only",
+    "deployed_isotonic_source": "existing calibrated_probability from calibrated_sides.csv",
+    "decision_rules_frozen": {
+      "spread": {
+        "lambda": 0.4,
+        "minimum_edge": 0.01
+      },
+      "total": {
+        "lambda": 0.25,
+        "minimum_edge": 0.01
+      }
+    },
+    "selector": "one side per game/market, maximum selected edge, then minimum-edge gate",
+    "bootstrap": "week-block resampling; descriptive uncertainty only",
+    "auto_promotion": false
+  },
+  "rows": 3752,
+  "settled_rows": 3696,
+  "markets": [
+    "spread",
+    "total"
+  ]
+}

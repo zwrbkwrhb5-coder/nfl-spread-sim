@@ -1,0 +1,61 @@
+{
+  "validation": {
+    "prior_weeks_only": true,
+    "same_week_results_used": false,
+    "rolling_window_tuning": true,
+    "probability_shrinkage_tuned_on_prior_weeks_only": true,
+    "threshold_tuned_on_prior_weeks_only": true,
+    "season_stability_penalty_uses_prior_data_only": true
+  },
+  "v26_spread_selector": {
+    "bets": 192,
+    "settled": 188,
+    "pushes": 4,
+    "win_rate": 0.5212765957446809,
+    "units": 6.542012421122932,
+    "roi": 0.03407298136001527,
+    "brier": 0.25274740499568976,
+    "avg_edge": 0.017428428807710557
+  },
+  "v27_spread_stability": {
+    "bets": 220,
+    "settled": 214,
+    "pushes": 6,
+    "win_rate": 0.5327102803738317,
+    "units": 8.70263153136898,
+    "roi": 0.03955741605167718,
+    "brier": 0.25417075090355457,
+    "avg_edge": 0.035325256447459555
+  },
+  "delta": {
+    "roi_v27_minus_v26": 0.005484434691661912,
+    "brier_v27_minus_v26": 0.0014233459078648036,
+    "win_rate_v27_minus_v26": 0.011433684629150842
+  },
+  "candidate_grid": {
+    "lambdas": [
+      0.1,
+      0.25,
+      0.4,
+      0.55,
+      0.7
+    ],
+    "thresholds": [
+      0.0,
+      0.005,
+      0.01,
+      0.015,
+      0.02,
+      0.03,
+      0.05
+    ],
+    "rolling_windows_weeks": [
+      26,
+      52,
+      78,
+      104,
+      9999
+    ],
+    "min_bets": 60
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "spread": {
+    "probability_shrinkage_lambda": 0.4,
+    "minimum_edge": 0.01,
+    "rolling_window_weeks": 78,
+    "selection_mode": "tuned",
+    "selection_score": 0.02485021596512902,
+    "prior_rows": 1876
+  }
+}

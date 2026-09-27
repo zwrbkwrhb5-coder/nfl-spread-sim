@@ -1,0 +1,5 @@
+{
+  "classification": "closing_alias",
+  "rows": 2227,
+  "note": "closing_alias means the generic market fields are numerically identical to the explicit closing fields on at least 98% of paired rows. It does not identify book, timestamp, or exact collection methodology."
+}

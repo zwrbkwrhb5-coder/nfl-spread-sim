@@ -1,0 +1,4 @@
+game_id,season,week,team,player_id,player_name,position,status,snap_share_prior,starter_flag,player_value_prior
+example_game,2025,1,BUF,example_qb,Example QB,QB,out,1.0,1,1.0
+example_game,2025,1,BUF,example_wr,Example WR,WR,questionable,0.82,1,0.75
+example_game,2025,1,MIA,example_cb,Example CB,CB,active,0.91,1,0.80

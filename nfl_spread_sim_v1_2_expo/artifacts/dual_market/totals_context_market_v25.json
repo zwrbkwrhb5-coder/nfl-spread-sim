@@ -1,0 +1,70 @@
+{
+  "qb_total_baseline": {
+    "matched_games_after_warmup": 938,
+    "selected_bets": 1288,
+    "week_safe": true,
+    "same_week_results_used": false,
+    "spread": {
+      "bets": 692,
+      "settled": 675,
+      "pushes": 17,
+      "win_rate": 0.5007407407407407,
+      "units": -21.097724741010694,
+      "roi": -0.03125588850520103,
+      "avg_edge": 0.050423083124568224,
+      "brier": 0.2574683472790161
+    },
+    "total": {
+      "bets": 596,
+      "settled": 591,
+      "pushes": 5,
+      "win_rate": 0.49746192893401014,
+      "units": -24.95108718098036,
+      "roi": -0.0422184216260243,
+      "avg_edge": 0.048964780046964126,
+      "brier": 0.25693519563154665
+    }
+  },
+  "qb_plus_context_total": {
+    "matched_games_after_warmup": 938,
+    "selected_bets": 1447,
+    "week_safe": true,
+    "same_week_results_used": false,
+    "spread": {
+      "bets": 692,
+      "settled": 675,
+      "pushes": 17,
+      "win_rate": 0.5007407407407407,
+      "units": -21.097724741010694,
+      "roi": -0.03125588850520103,
+      "avg_edge": 0.050423083124568224,
+      "brier": 0.2574683472790161
+    },
+    "total": {
+      "bets": 755,
+      "settled": 750,
+      "pushes": 5,
+      "win_rate": 0.5133333333333333,
+      "units": -9.738291509147283,
+      "roi": -0.012984388678863038,
+      "avg_edge": 0.05230617042903428,
+      "brier": 0.2565054452571194
+    }
+  },
+  "delta": {
+    "total_roi_context_minus_base": 0.029234032947161263,
+    "total_brier_context_minus_base": -0.0004297503744272735,
+    "total_win_rate_context_minus_base": 0.015871404399323163,
+    "total_avg_edge_context_minus_base": 0.003341390382070153,
+    "spread_roi_context_minus_base": 0.0,
+    "spread_brier_context_minus_base": 0.0
+  },
+  "validation": {
+    "week_safe": true,
+    "common_sample": true,
+    "same_training_rows": true,
+    "same_test_rows": true,
+    "spread_model_unchanged": true,
+    "only_total_model_changes": true
+  }
+}

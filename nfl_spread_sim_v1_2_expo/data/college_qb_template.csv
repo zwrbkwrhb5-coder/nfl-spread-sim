@@ -1,0 +1,2 @@
+player_id,player_name,college_epa_db,college_cpoe,college_sack_rate,college_explosive_pass_rate,college_opponent_strength
+example_id,Example QB,0.25,4.8,0.045,0.14,0.72

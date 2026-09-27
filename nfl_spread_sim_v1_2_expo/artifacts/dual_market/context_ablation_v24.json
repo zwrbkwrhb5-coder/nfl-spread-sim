@@ -1,0 +1,110 @@
+{
+  "spread": {
+    "games": 1000,
+    "base_mae": 9.789422523430085,
+    "context_mae": 9.820393719357998,
+    "delta_mae": 0.030971195927913087,
+    "base_rmse": 12.721047646722727,
+    "context_rmse": 12.754867205589582,
+    "delta_rmse": 0.03381955886685439,
+    "by_season": [
+      {
+        "season": 2022,
+        "games": 245,
+        "base_mae": 8.9411120451428,
+        "base_rmse": 11.609139803816323,
+        "plus_context_mae": 8.962835640956591,
+        "plus_context_rmse": 11.628515022248644
+      },
+      {
+        "season": 2023,
+        "games": 250,
+        "base_mae": 10.347038107125936,
+        "base_rmse": 13.394304076384158,
+        "plus_context_mae": 10.310228307547689,
+        "plus_context_rmse": 13.370097822994367
+      },
+      {
+        "season": 2024,
+        "games": 258,
+        "base_mae": 9.965787437772452,
+        "base_rmse": 12.986563905847724,
+        "plus_context_mae": 10.05648302555791,
+        "plus_context_rmse": 13.123071272141944
+      },
+      {
+        "season": 2025,
+        "games": 247,
+        "base_mae": 9.882256626086324,
+        "base_rmse": 12.8651776841416,
+        "plus_context_mae": 9.928620606650894,
+        "plus_context_rmse": 12.864794255779152
+      }
+    ]
+  },
+  "total": {
+    "games": 1000,
+    "base_mae": 10.446033324509868,
+    "context_mae": 10.417790476027292,
+    "delta_mae": -0.02824284848257541,
+    "base_rmse": 13.295276908848022,
+    "context_rmse": 13.22869515428016,
+    "delta_rmse": -0.06658175456786175,
+    "by_season": [
+      {
+        "season": 2022,
+        "games": 245,
+        "base_mae": 11.182485003724073,
+        "base_rmse": 13.952662050262246,
+        "plus_context_mae": 11.067876752884164,
+        "plus_context_rmse": 13.872191495187854
+      },
+      {
+        "season": 2023,
+        "games": 250,
+        "base_mae": 10.353920873016873,
+        "base_rmse": 13.269526371734127,
+        "plus_context_mae": 10.35628028034596,
+        "plus_context_rmse": 13.197903327649588
+      },
+      {
+        "season": 2024,
+        "games": 258,
+        "base_mae": 9.62996399042013,
+        "base_rmse": 12.492568379427038,
+        "plus_context_mae": 9.705823714680617,
+        "plus_context_rmse": 12.57180564141184
+      },
+      {
+        "season": 2025,
+        "games": 247,
+        "base_mae": 10.661188545809143,
+        "base_rmse": 13.507734703271522,
+        "plus_context_mae": 10.578899121848517,
+        "plus_context_rmse": 13.307718828188193
+      }
+    ]
+  },
+  "notes": {
+    "baseline": "QB-enhanced model",
+    "common_sample": true,
+    "random_split": false,
+    "spread_context": [
+      "rest_diff",
+      "short_week_diff",
+      "long_rest_diff",
+      "divisional_game",
+      "indoor",
+      "grass"
+    ],
+    "total_context": [
+      "divisional_game",
+      "indoor",
+      "grass",
+      "cold_degrees",
+      "wind_over_10",
+      "cold_game",
+      "windy_game"
+    ]
+  }
+}

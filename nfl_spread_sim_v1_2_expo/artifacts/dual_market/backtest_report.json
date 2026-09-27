@@ -1,0 +1,92 @@
+{
+  "model": "paired-score Ridge baseline; alpha not yet tuned",
+  "point_forecast": {
+    "games": 1087,
+    "spread_margin": {
+      "mae": 9.889374100114138,
+      "rmse": 12.896329292810972,
+      "bias_predicted_minus_actual": -0.7067626903075356
+    },
+    "game_total": {
+      "mae": 10.450678950321315,
+      "rmse": 13.299461802512255,
+      "bias_predicted_minus_actual": 0.3342062754008678
+    }
+  },
+  "prior_training_mean_baseline": {
+    "games": 1087,
+    "spread_margin": {
+      "mae": 10.738889675216335,
+      "rmse": 13.898089167570497,
+      "bias_predicted_minus_actual": -1.000220058035544
+    },
+    "game_total": {
+      "mae": 10.901352041400166,
+      "rmse": 13.730279838015898,
+      "bias_predicted_minus_actual": 1.2757998058966449
+    }
+  },
+  "distribution_test_games": 816,
+  "interval_diagnostics": {
+    "margin_80_covered": 0.7720588235294118,
+    "total_80_covered": 0.7953431372549019,
+    "margin_80_width": 31.31102941176471,
+    "total_80_width": 32.992647058823536
+  },
+  "ats_and_over_under_profit_tested": false,
+  "probability_calibration_fitted": false,
+  "by_test_season": {
+    "2022": {
+      "games": 271,
+      "spread_margin": {
+        "mae": 8.925991889603083,
+        "rmse": 11.661478857139679,
+        "bias_predicted_minus_actual": -0.7998435323944043
+      },
+      "game_total": {
+        "mae": 10.938435754940354,
+        "rmse": 13.574088961749492,
+        "bias_predicted_minus_actual": 1.9595124324718454
+      }
+    },
+    "2023": {
+      "games": 272,
+      "spread_margin": {
+        "mae": 10.349271947558583,
+        "rmse": 13.612351161807416,
+        "bias_predicted_minus_actual": -1.3153784425745187
+      },
+      "game_total": {
+        "mae": 10.560372021223621,
+        "rmse": 13.503914244123974,
+        "bias_predicted_minus_actual": 0.35364582788010024
+      }
+    },
+    "2024": {
+      "games": 272,
+      "spread_margin": {
+        "mae": 10.048284233882178,
+        "rmse": 13.109483979708994,
+        "bias_predicted_minus_actual": -0.0917492709508472
+      },
+      "game_total": {
+        "mae": 9.765220911499128,
+        "rmse": 12.706977925119388,
+        "bias_predicted_minus_actual": -0.8950355832526606
+      }
+    },
+    "2025": {
+      "games": 272,
+      "spread_margin": {
+        "mae": 10.230406483050531,
+        "rmse": 13.115067046438654,
+        "bias_predicted_minus_actual": -0.6204217242886327
+      },
+      "game_total": {
+        "mae": 10.540480337168546,
+        "rmse": 13.395931883073166,
+        "bias_predicted_minus_actual": -0.07532218521246496
+      }
+    }
+  }
+}

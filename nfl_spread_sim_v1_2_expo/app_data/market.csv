@@ -1,0 +1,5 @@
+game_id,snapshot_time,sportsbook,side_team,spread,american_odds,market_phase
+example_game,2026-09-27T15:00:00Z,FanDuel,BUF,-3.5,-105,current
+example_game,2026-09-27T15:00:00Z,FanDuel,MIA,3.5,-115,current
+example_game,2026-09-27T15:00:00Z,DraftKings,BUF,-4.0,-110,current
+example_game,2026-09-27T15:00:00Z,DraftKings,MIA,4.0,-110,current

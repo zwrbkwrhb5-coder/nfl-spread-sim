@@ -1,0 +1,94 @@
+{
+  "spread": {
+    "games": 1000,
+    "base_mae": 9.844858380692575,
+    "opening_mae": 9.856671615043535,
+    "delta_mae": 0.011813234350960045,
+    "base_rmse": 12.823750173185182,
+    "opening_rmse": 12.868938884692525,
+    "delta_rmse": 0.04518871150734327,
+    "by_season": [
+      {
+        "season": 2022,
+        "games": 245,
+        "base_mae": 9.33127693218343,
+        "base_rmse": 12.288810410682958,
+        "plus_opening_mae": 9.418509728447676,
+        "plus_opening_rmse": 12.377031093663563
+      },
+      {
+        "season": 2023,
+        "games": 250,
+        "base_mae": 10.128381414788587,
+        "base_rmse": 13.174068468911415,
+        "plus_opening_mae": 10.071933971354538,
+        "plus_opening_rmse": 13.146980578024221
+      },
+      {
+        "season": 2024,
+        "games": 258,
+        "base_mae": 9.997666655909383,
+        "base_rmse": 12.986161402336178,
+        "plus_opening_mae": 9.973521693927061,
+        "plus_opening_rmse": 13.007158480502683
+      },
+      {
+        "season": 2025,
+        "games": 247,
+        "base_mae": 9.90770113921404,
+        "base_rmse": 12.830141147924172,
+        "plus_opening_mae": 9.95135482470461,
+        "plus_opening_rmse": 12.931069774369258
+      }
+    ]
+  },
+  "total": {
+    "games": 1000,
+    "base_mae": 11.021124389199631,
+    "opening_mae": 11.081706783840351,
+    "delta_mae": 0.06058239464072024,
+    "base_rmse": 13.924724931177957,
+    "opening_rmse": 13.976616032606664,
+    "delta_rmse": 0.051891101428706676,
+    "by_season": [
+      {
+        "season": 2022,
+        "games": 245,
+        "base_mae": 12.413360616076082,
+        "base_rmse": 15.49313098697816,
+        "plus_opening_mae": 12.506391588084234,
+        "plus_opening_rmse": 15.585522734810011
+      },
+      {
+        "season": 2023,
+        "games": 250,
+        "base_mae": 10.998497003996107,
+        "base_rmse": 13.83258490572161,
+        "plus_opening_mae": 11.088149410911264,
+        "plus_opening_rmse": 13.973619294481605
+      },
+      {
+        "season": 2024,
+        "games": 258,
+        "base_mae": 9.989879204135116,
+        "base_rmse": 12.840970860992003,
+        "plus_opening_mae": 9.959205495147753,
+        "plus_opening_rmse": 12.774329967675767
+      },
+      {
+        "season": 2025,
+        "games": 247,
+        "base_mae": 10.740234625891105,
+        "base_rmse": 13.594296076121331,
+        "plus_opening_mae": 10.834528235966708,
+        "plus_opening_rmse": 13.639599219827783
+      }
+    ]
+  },
+  "notes": {
+    "common_sample": true,
+    "pregame_only": true,
+    "same_game_opening_drive_used": false,
+    "baseline": "QB-enhanced model"
+  }
+}

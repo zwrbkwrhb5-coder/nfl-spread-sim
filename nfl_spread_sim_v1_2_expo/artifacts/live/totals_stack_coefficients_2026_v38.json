@@ -1,0 +1,12 @@
+{
+  "rows": 1000,
+  "min_season": 2022,
+  "max_season": 2025,
+  "stack_intercept": -0.6574459075362711,
+  "stack_market_coef": 0.8447214401255188,
+  "stack_model_coef": 0.18156281045329375,
+  "market_only_intercept": 1.4127592165637353,
+  "market_only_coef": 0.9847069087828031,
+  "historical_market_timing": "closing_alias",
+  "note": "These 2026 coefficients were trained using historical market total_line. If the timing audit classifies that field as closing_alias, current live consensus is only a shadow proxy until closing-time validation exists."
+}
