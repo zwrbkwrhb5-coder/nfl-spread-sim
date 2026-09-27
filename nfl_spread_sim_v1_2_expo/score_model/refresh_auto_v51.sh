@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd /workspaces/nfl-spread-sim/nfl_spread_sim_v1_2_expo
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+cd "$PROJECT_ROOT"
 
 if [ -f .venv-model/bin/activate ]; then
   . .venv-model/bin/activate
