@@ -1,0 +1,51 @@
+name: Publish NFL SIM EAS Update
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "nfl_spread_sim_v1_2_expo/mobile/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nfl-sim-eas-production
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: nfl_spread_sim_v1_2_expo/mobile
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: nfl_spread_sim_v1_2_expo/mobile/package-lock.json
+
+      - name: Install app dependencies
+        run: npm ci
+
+      - name: TypeScript check
+        run: npx tsc --noEmit
+
+      - name: Publish production update
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: |
+          npx eas-cli@latest update \
+            --channel production \
+            --platform all \
+            --non-interactive \
+            --message "NFL SIM automatic update $GITHUB_SHA"

@@ -31,8 +31,8 @@ export const lineText = (
   return `${pick.toUpperCase()} ${line.toFixed(1)}`;
 };
 
-export const getGame = (id: string) =>
-  APP_DATA.games.find((g) => g.id === id);
+export const getGame = (id: string): GameView | undefined =>
+  APP_DATA.games.find((g) => g.id === id) as GameView | undefined;
 
 const SNAPSHOT = APP_DATA as AppSnapshot;
 

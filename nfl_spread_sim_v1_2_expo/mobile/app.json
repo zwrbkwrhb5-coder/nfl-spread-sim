@@ -13,6 +13,20 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "feb6267f-a66c-42af-86ad-f55781f1265e"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/feb6267f-a66c-42af-86ad-f55781f1265e"
+    },
+    "android": {},
+    "ios": {}
   }
 }
