@@ -43,9 +43,9 @@ jobs:
       - name: Publish production update
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          CI: 1
         run: |
           npx eas-cli@latest update \
             --channel production \
-            --platform all \
-            --non-interactive \
+            --platform ios \
             --message "NFL SIM automatic update $GITHUB_SHA"
