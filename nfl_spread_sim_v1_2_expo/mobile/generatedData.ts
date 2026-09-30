@@ -1,13 +1,14 @@
 import type { AppSnapshot } from "./types";
 
 export const APP_DATA = {
-  "generatedAt": "2026-09-29T14:30:29.791144+00:00",
+  "generatedAt": "2026-09-30T14:32:28.172309+00:00",
   "season": 2026,
   "week": 4,
   "currentWeek": 4,
   "nextWeek": 5,
   "availableWeeks": [
-    4
+    4,
+    5
   ],
   "games": [
     {
@@ -2737,6 +2738,1680 @@ export const APP_DATA = {
       "shadowTotal": null,
       "qualifies": false,
       "bestEdge": 0.0044198895027623
+    },
+    {
+      "id": "2026_05_TB_DAL",
+      "season": 2026,
+      "week": 5,
+      "away": "TB",
+      "home": "DAL",
+      "kickoffAt": "2026-10-09T00:15:00+00:00",
+      "awayQB": "Baker Mayfield",
+      "homeQB": "Dak Prescott",
+      "modelMargin": 3.656788755144432,
+      "modelTotal": 51.572016984008144,
+      "spread": {
+        "market": "spread",
+        "pick": "TB",
+        "line": 9.5,
+        "odds": -108,
+        "book": "Bally Bet",
+        "rawProbability": 0.685,
+        "calibratedProbability": 0.5221238938053098,
+        "selectedProbability": 0.5088495575221239,
+        "breakEven": 0.5192307692307693,
+        "edge": -0.0103812117086453,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.4319444666666667,
+        "oddsBoard": [
+          {
+            "line": 9.5,
+            "odds": -108,
+            "book": "Bally Bet",
+            "breakEven": 0.5192307692307693,
+            "edge": -0.0103812117086453,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": true
+          },
+          {
+            "line": 9.5,
+            "odds": -108,
+            "book": "BetRivers",
+            "breakEven": 0.5192307692307693,
+            "edge": -0.0103812117086453,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 9.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0149599662873999,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 9.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0149599662873999,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": false
+          }
+        ]
+      },
+      "total": null,
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0103812117086453
+    },
+    {
+      "id": "2026_05_PHI_JAX",
+      "season": 2026,
+      "week": 5,
+      "away": "PHI",
+      "home": "JAX",
+      "kickoffAt": "2026-10-11T13:30:00+00:00",
+      "awayQB": "Jalen Hurts",
+      "homeQB": "Trevor Lawrence",
+      "modelMargin": 7.7777203711899805,
+      "modelTotal": 45.76891308501332,
+      "spread": {
+        "market": "spread",
+        "pick": "JAX",
+        "line": -2.5,
+        "odds": -112,
+        "book": "FanDuel",
+        "rawProbability": 0.694,
+        "calibratedProbability": 0.5454545454545453,
+        "selectedProbability": 0.5181818181818181,
+        "breakEven": 0.5283018867924528,
+        "edge": -0.0101200686106347,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0819444666666666,
+        "oddsBoard": [
+          {
+            "line": -2.5,
+            "odds": -112,
+            "book": "FanDuel",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0101200686106347,
+            "quoteAgeMinutes": 0.0819444666666666,
+            "selected": true
+          },
+          {
+            "line": -2.5,
+            "odds": -115,
+            "book": "DraftKings",
+            "breakEven": 0.5348837209302325,
+            "edge": -0.0167019027484144,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": -2.5,
+            "odds": -117,
+            "book": "Bally Bet",
+            "breakEven": 0.5391705069124424,
+            "edge": -0.0209886887306243,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": -2.5,
+            "odds": -117,
+            "book": "BetRivers",
+            "breakEven": 0.5391705069124424,
+            "edge": -0.0209886887306243,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "OVER",
+        "line": 45.5,
+        "odds": -105,
+        "book": "FanDuel",
+        "rawProbability": 0.474,
+        "calibratedProbability": 0.4870848708487085,
+        "selectedProbability": 0.4967712177121771,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0154239042390423,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0819444666666666,
+        "oddsBoard": [
+          {
+            "line": 45.5,
+            "odds": -105,
+            "book": "FanDuel",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0154239042390423,
+            "quoteAgeMinutes": 0.0819444666666666,
+            "selected": true
+          },
+          {
+            "line": 44.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 44.5,
+            "odds": -112,
+            "book": "Bally Bet",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0283018867924528,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 44.5,
+            "odds": -112,
+            "book": "BetRivers",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0283018867924528,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0101200686106347
+    },
+    {
+      "id": "2026_05_CHI_GB",
+      "season": 2026,
+      "week": 5,
+      "away": "CHI",
+      "home": "GB",
+      "kickoffAt": "2026-10-11T17:00:00+00:00",
+      "awayQB": "Caleb Williams",
+      "homeQB": "Jordan Love",
+      "modelMargin": -1.0035772497789743,
+      "modelTotal": 46.0726450091056,
+      "spread": {
+        "market": "spread",
+        "pick": "CHI",
+        "line": 2.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "rawProbability": 0.613,
+        "calibratedProbability": 0.5164835164835164,
+        "selectedProbability": 0.5065934065934066,
+        "breakEven": 0.5238095238095238,
+        "edge": -0.0172161172161172,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 2.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0172161172161172,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 2.5,
+            "odds": -110,
+            "book": "Bally Bet",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0172161172161172,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 2.5,
+            "odds": -110,
+            "book": "BetRivers",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0172161172161172,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 2.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0172161172161172,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "UNDER",
+        "line": 45.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "rawProbability": 0.518,
+        "calibratedProbability": 0.5129151291512916,
+        "selectedProbability": 0.5032287822878229,
+        "breakEven": 0.5238095238095238,
+        "edge": -0.0205807415217009,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 45.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 45.5,
+            "odds": -110,
+            "book": "Bally Bet",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 45.5,
+            "odds": -110,
+            "book": "BetRivers",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 45.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0172161172161172
+    },
+    {
+      "id": "2026_05_CIN_MIA",
+      "season": 2026,
+      "week": 5,
+      "away": "CIN",
+      "home": "MIA",
+      "kickoffAt": "2026-10-11T17:00:00+00:00",
+      "awayQB": "Joe Burrow",
+      "homeQB": "Malik Willis",
+      "modelMargin": -7.796198088023889,
+      "modelTotal": 46.64350668205321,
+      "spread": {
+        "market": "spread",
+        "pick": "MIA",
+        "line": 8.5,
+        "odds": -105,
+        "book": "FanDuel",
+        "rawProbability": 0.545,
+        "calibratedProbability": 0.511049723756906,
+        "selectedProbability": 0.5044198895027624,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0077752324484571,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 8.5,
+            "odds": -105,
+            "book": "FanDuel",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0077752324484571,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 9.0,
+            "odds": -110,
+            "book": "Bally Bet",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0193896343067614,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 9.0,
+            "odds": -110,
+            "book": "BetRivers",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0193896343067614,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 8.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0193896343067614,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "UNDER",
+        "line": 46.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "rawProbability": 0.531,
+        "calibratedProbability": 0.5129151291512916,
+        "selectedProbability": 0.5032287822878229,
+        "breakEven": 0.5238095238095238,
+        "edge": -0.0205807415217009,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 46.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 46.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 46.5,
+            "odds": -112,
+            "book": "Bally Bet",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0250731045046299,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 46.5,
+            "odds": -112,
+            "book": "BetRivers",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0250731045046299,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0077752324484571
+    },
+    {
+      "id": "2026_05_CLE_NYJ",
+      "season": 2026,
+      "week": 5,
+      "away": "CLE",
+      "home": "NYJ",
+      "kickoffAt": "2026-10-11T17:00:00+00:00",
+      "awayQB": "Deshaun Watson",
+      "homeQB": "Geno Smith",
+      "modelMargin": 0.2775008808229582,
+      "modelTotal": 43.35268880987204,
+      "spread": {
+        "market": "spread",
+        "pick": "CLE",
+        "line": 2.5,
+        "odds": -104,
+        "book": "Bally Bet",
+        "rawProbability": 0.569,
+        "calibratedProbability": 0.511049723756906,
+        "selectedProbability": 0.5044198895027624,
+        "breakEven": 0.5098039215686274,
+        "edge": -0.005384032065865,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.4319444666666667,
+        "oddsBoard": [
+          {
+            "line": 2.5,
+            "odds": -104,
+            "book": "Bally Bet",
+            "breakEven": 0.5098039215686274,
+            "edge": -0.005384032065865,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": true
+          },
+          {
+            "line": 2.5,
+            "odds": -104,
+            "book": "BetRivers",
+            "breakEven": 0.5098039215686274,
+            "edge": -0.005384032065865,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 2.5,
+            "odds": -105,
+            "book": "DraftKings",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0077752324484571,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 2.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0193896343067614,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "OVER",
+        "line": 39.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "rawProbability": 0.578,
+        "calibratedProbability": 0.527272727272727,
+        "selectedProbability": 0.5068181818181817,
+        "breakEven": 0.5238095238095238,
+        "edge": -0.0169913419913421,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 39.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0169913419913421,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 39.5,
+            "odds": -110,
+            "book": "Bally Bet",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0169913419913421,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 39.5,
+            "odds": -110,
+            "book": "BetRivers",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0169913419913421,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 39.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0169913419913421,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.005384032065865
+    },
+    {
+      "id": "2026_05_HOU_TEN",
+      "season": 2026,
+      "week": 5,
+      "away": "HOU",
+      "home": "TEN",
+      "kickoffAt": "2026-10-11T17:00:00+00:00",
+      "awayQB": "C.J. Stroud",
+      "homeQB": "Cam Ward",
+      "modelMargin": -5.726253249354038,
+      "modelTotal": 40.04532199331756,
+      "spread": {
+        "market": "spread",
+        "pick": "TEN",
+        "line": 6.5,
+        "odds": -105,
+        "book": "FanDuel",
+        "rawProbability": 0.548,
+        "calibratedProbability": 0.511049723756906,
+        "selectedProbability": 0.5044198895027624,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0077752324484571,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 6.5,
+            "odds": -105,
+            "book": "FanDuel",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0077752324484571,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 6.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0193896343067614,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 6.5,
+            "odds": -112,
+            "book": "Bally Bet",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0238819972896904,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 6.5,
+            "odds": -112,
+            "book": "BetRivers",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0238819972896904,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "UNDER",
+        "line": 38.5,
+        "odds": -105,
+        "book": "FanDuel",
+        "rawProbability": 0.492,
+        "calibratedProbability": 0.4883720930232558,
+        "selectedProbability": 0.4970930232558139,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0151020986954055,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 38.5,
+            "odds": -105,
+            "book": "FanDuel",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0151020986954055,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 39.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 39.0,
+            "odds": -109,
+            "book": "Bally Bet",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0215311004784688,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 39.0,
+            "odds": -109,
+            "book": "BetRivers",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0215311004784688,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0077752324484571
+    },
+    {
+      "id": "2026_05_IND_PIT",
+      "season": 2026,
+      "week": 5,
+      "away": "IND",
+      "home": "PIT",
+      "kickoffAt": "2026-10-11T17:00:00+00:00",
+      "awayQB": "Daniel Jones",
+      "homeQB": "Aaron Rodgers",
+      "modelMargin": 2.0426173639069605,
+      "modelTotal": 44.94226684007137,
+      "spread": {
+        "market": "spread",
+        "pick": "IND",
+        "line": 1.5,
+        "odds": -105,
+        "book": "FanDuel",
+        "rawProbability": 0.46,
+        "calibratedProbability": 0.4889502762430939,
+        "selectedProbability": 0.4955801104972375,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0166150114539819,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 1.5,
+            "odds": -105,
+            "book": "FanDuel",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0166150114539819,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 2.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 2.0,
+            "odds": -110,
+            "book": "Bally Bet",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0282294133122862,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 2.0,
+            "odds": -110,
+            "book": "BetRivers",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0282294133122862,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "UNDER",
+        "line": 43.5,
+        "odds": -102,
+        "book": "FanDuel",
+        "rawProbability": 0.498,
+        "calibratedProbability": 0.5,
+        "selectedProbability": 0.5,
+        "breakEven": 0.504950495049505,
+        "edge": -0.0049504950495049,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 43.5,
+            "odds": -102,
+            "book": "FanDuel",
+            "breakEven": 0.504950495049505,
+            "edge": -0.0049504950495049,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 44.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 44.0,
+            "odds": -112,
+            "book": "Bally Bet",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0283018867924528,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 44.0,
+            "odds": -112,
+            "book": "BetRivers",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0283018867924528,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0049504950495049
+    },
+    {
+      "id": "2026_05_LV_NE",
+      "season": 2026,
+      "week": 5,
+      "away": "LV",
+      "home": "NE",
+      "kickoffAt": "2026-10-11T17:00:00+00:00",
+      "awayQB": "Kirk Cousins",
+      "homeQB": "Drake Maye",
+      "modelMargin": 8.599056030318296,
+      "modelTotal": 45.04437089048813,
+      "spread": {
+        "market": "spread",
+        "pick": "NE",
+        "line": -3.5,
+        "odds": -109,
+        "book": "Bally Bet",
+        "rawProbability": 0.687,
+        "calibratedProbability": 0.54371489034244,
+        "selectedProbability": 0.517485956136976,
+        "breakEven": 0.5215311004784688,
+        "edge": -0.0040451443414928,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.4319444666666667,
+        "oddsBoard": [
+          {
+            "line": -3.5,
+            "odds": -109,
+            "book": "Bally Bet",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0040451443414928,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": true
+          },
+          {
+            "line": -3.5,
+            "odds": -109,
+            "book": "BetRivers",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0040451443414928,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": -3.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0063235676725478,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": -3.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0063235676725478,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "OVER",
+        "line": 44.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "rawProbability": 0.482,
+        "calibratedProbability": 0.4870848708487085,
+        "selectedProbability": 0.4967712177121771,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0154239042390423,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.7486111333333334,
+        "oddsBoard": [
+          {
+            "line": 44.5,
+            "odds": -105,
+            "book": "DraftKings",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0154239042390423,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": true
+          },
+          {
+            "line": 44.0,
+            "odds": -110,
+            "book": "Bally Bet",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 44.0,
+            "odds": -110,
+            "book": "BetRivers",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 43.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0040451443414928
+    },
+    {
+      "id": "2026_05_MIN_NO",
+      "season": 2026,
+      "week": 5,
+      "away": "MIN",
+      "home": "NO",
+      "kickoffAt": "2026-10-11T17:00:00+00:00",
+      "awayQB": "Kyler Murray",
+      "homeQB": "Tyler Shough",
+      "modelMargin": 1.9671796421138368,
+      "modelTotal": 43.33210780737984,
+      "spread": {
+        "market": "spread",
+        "pick": "NO",
+        "line": 1.5,
+        "odds": -108,
+        "book": "FanDuel",
+        "rawProbability": 0.639,
+        "calibratedProbability": 0.5164835164835164,
+        "selectedProbability": 0.5065934065934066,
+        "breakEven": 0.5192307692307693,
+        "edge": -0.0126373626373627,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 1.5,
+            "odds": -108,
+            "book": "FanDuel",
+            "breakEven": 0.5192307692307693,
+            "edge": -0.0126373626373627,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 2.0,
+            "odds": -109,
+            "book": "Bally Bet",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0126815429563449,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 2.0,
+            "odds": -109,
+            "book": "BetRivers",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0126815429563449,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 2.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0149599662873999,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "UNDER",
+        "line": 44.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "rawProbability": 0.586,
+        "calibratedProbability": 0.527272727272727,
+        "selectedProbability": 0.5068181818181817,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0053769401330378,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.7486111333333334,
+        "oddsBoard": [
+          {
+            "line": 44.5,
+            "odds": -105,
+            "book": "DraftKings",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0053769401330378,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": true
+          },
+          {
+            "line": 45.5,
+            "odds": -112,
+            "book": "Bally Bet",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0214837049742711,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 45.5,
+            "odds": -112,
+            "book": "BetRivers",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0214837049742711,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 46.5,
+            "odds": -118,
+            "book": "FanDuel",
+            "breakEven": 0.5412844036697247,
+            "edge": -0.034466221851543,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0053769401330378
+    },
+    {
+      "id": "2026_05_NYG_WAS",
+      "season": 2026,
+      "week": 5,
+      "away": "NYG",
+      "home": "WAS",
+      "kickoffAt": "2026-10-11T17:00:00+00:00",
+      "awayQB": "Jameis Winston",
+      "homeQB": "Jayden Daniels",
+      "modelMargin": 3.055387181503334,
+      "modelTotal": 45.59049214531486,
+      "spread": {
+        "market": "spread",
+        "pick": "NYG",
+        "line": 2.5,
+        "odds": -102,
+        "book": "DraftKings",
+        "rawProbability": 0.46,
+        "calibratedProbability": 0.4889502762430939,
+        "selectedProbability": 0.4955801104972375,
+        "breakEven": 0.504950495049505,
+        "edge": -0.0093703845522674,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.7486111333333334,
+        "oddsBoard": [
+          {
+            "line": 2.5,
+            "odds": -102,
+            "book": "DraftKings",
+            "breakEven": 0.504950495049505,
+            "edge": -0.0093703845522674,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": true
+          },
+          {
+            "line": 2.5,
+            "odds": -105,
+            "book": "Bally Bet",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0166150114539819,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 2.5,
+            "odds": -105,
+            "book": "BetRivers",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0166150114539819,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 2.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0282294133122862,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "OVER",
+        "line": 43.5,
+        "odds": -105,
+        "book": "FanDuel",
+        "rawProbability": 0.522,
+        "calibratedProbability": 0.5129151291512916,
+        "selectedProbability": 0.5032287822878229,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0089663396633966,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 43.5,
+            "odds": -105,
+            "book": "FanDuel",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0089663396633966,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 42.5,
+            "odds": -109,
+            "book": "Bally Bet",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0183023181906459,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 42.5,
+            "odds": -109,
+            "book": "BetRivers",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0183023181906459,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 42.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0089663396633966
+    },
+    {
+      "id": "2026_05_DEN_LAC",
+      "season": 2026,
+      "week": 5,
+      "away": "DEN",
+      "home": "LAC",
+      "kickoffAt": "2026-10-11T20:05:00+00:00",
+      "awayQB": "Bo Nix",
+      "homeQB": "Justin Herbert",
+      "modelMargin": -1.941354472566247,
+      "modelTotal": 41.57565734165173,
+      "spread": {
+        "market": "spread",
+        "pick": "LAC",
+        "line": 2.5,
+        "odds": -110,
+        "book": "DraftKings",
+        "rawProbability": 0.54,
+        "calibratedProbability": 0.511049723756906,
+        "selectedProbability": 0.5044198895027624,
+        "breakEven": 0.5238095238095238,
+        "edge": -0.0193896343067614,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.7486111333333334,
+        "oddsBoard": [
+          {
+            "line": 2.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0193896343067614,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": true
+          },
+          {
+            "line": 1.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": false
+          },
+          {
+            "line": 2.0,
+            "odds": -112,
+            "book": "Bally Bet",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0238819972896904,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 2.0,
+            "odds": -112,
+            "book": "BetRivers",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0238819972896904,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "UNDER",
+        "line": 43.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "rawProbability": 0.608,
+        "calibratedProbability": 0.527272727272727,
+        "selectedProbability": 0.5068181818181817,
+        "breakEven": 0.5238095238095238,
+        "edge": -0.0169913419913421,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 43.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0169913419913421,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 43.5,
+            "odds": -110,
+            "book": "Bally Bet",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0169913419913421,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 43.5,
+            "odds": -110,
+            "book": "BetRivers",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0169913419913421,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 43.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0169913419913421,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0169913419913421
+    },
+    {
+      "id": "2026_05_DET_ARI",
+      "season": 2026,
+      "week": 5,
+      "away": "DET",
+      "home": "ARI",
+      "kickoffAt": "2026-10-11T20:25:00+00:00",
+      "awayQB": "Jared Goff",
+      "homeQB": "Jacoby Brissett",
+      "modelMargin": -5.0057942722355175,
+      "modelTotal": 50.66730776264355,
+      "spread": {
+        "market": "spread",
+        "pick": "ARI",
+        "line": 5.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "rawProbability": 0.537,
+        "calibratedProbability": 0.511049723756906,
+        "selectedProbability": 0.5044198895027624,
+        "breakEven": 0.5238095238095238,
+        "edge": -0.0193896343067614,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 5.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0193896343067614,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 5.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0193896343067614,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 5.5,
+            "odds": -112,
+            "book": "Bally Bet",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0238819972896904,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 5.5,
+            "odds": -112,
+            "book": "BetRivers",
+            "breakEven": 0.5283018867924528,
+            "edge": -0.0238819972896904,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "total": null,
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0193896343067614
+    },
+    {
+      "id": "2026_05_SF_SEA",
+      "season": 2026,
+      "week": 5,
+      "away": "SF",
+      "home": "SEA",
+      "kickoffAt": "2026-10-11T20:25:00+00:00",
+      "awayQB": "Brock Purdy",
+      "homeQB": "Sam Darnold",
+      "modelMargin": 2.961862538441132,
+      "modelTotal": 48.75487918511679,
+      "spread": {
+        "market": "spread",
+        "pick": "SF",
+        "line": 3.5,
+        "odds": -105,
+        "book": "FanDuel",
+        "rawProbability": 0.499,
+        "calibratedProbability": 0.5,
+        "selectedProbability": 0.5,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0121951219512195,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 3.5,
+            "odds": -105,
+            "book": "FanDuel",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0121951219512195,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 3.0,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 3.5,
+            "odds": -117,
+            "book": "Bally Bet",
+            "breakEven": 0.5391705069124424,
+            "edge": -0.0391705069124423,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 3.5,
+            "odds": -117,
+            "book": "BetRivers",
+            "breakEven": 0.5391705069124424,
+            "edge": -0.0391705069124423,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "OVER",
+        "line": 47.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "rawProbability": 0.498,
+        "calibratedProbability": 0.5,
+        "selectedProbability": 0.5,
+        "breakEven": 0.5238095238095238,
+        "edge": -0.0238095238095238,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 47.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 47.5,
+            "odds": -110,
+            "book": "Bally Bet",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 47.5,
+            "odds": -110,
+            "book": "BetRivers",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 47.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0121951219512195
+    },
+    {
+      "id": "2026_05_BAL_ATL",
+      "season": 2026,
+      "week": 5,
+      "away": "BAL",
+      "home": "ATL",
+      "kickoffAt": "2026-10-12T00:20:00+00:00",
+      "awayQB": "Lamar Jackson",
+      "homeQB": "Michael Penix Jr.",
+      "modelMargin": -1.445026104085823,
+      "modelTotal": 49.65150038047083,
+      "spread": {
+        "market": "spread",
+        "pick": "ATL",
+        "line": 6.5,
+        "odds": -105,
+        "book": "FanDuel",
+        "rawProbability": 0.687,
+        "calibratedProbability": 0.54371489034244,
+        "selectedProbability": 0.517485956136976,
+        "breakEven": 0.5121951219512195,
+        "edge": 0.0052908341857564,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 6.5,
+            "odds": -105,
+            "book": "FanDuel",
+            "breakEven": 0.5121951219512195,
+            "edge": 0.0052908341857564,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 6.0,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0149599662873999,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          },
+          {
+            "line": 6.5,
+            "odds": -114,
+            "book": "Bally Bet",
+            "breakEven": 0.5327102803738317,
+            "edge": -0.0152243242368557,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 6.5,
+            "odds": -114,
+            "book": "BetRivers",
+            "breakEven": 0.5327102803738317,
+            "edge": -0.0152243242368557,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          }
+        ]
+      },
+      "total": null,
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": 0.0052908341857564
+    },
+    {
+      "id": "2026_05_BUF_LA",
+      "season": 2026,
+      "week": 5,
+      "away": "BUF",
+      "home": "LA",
+      "kickoffAt": "2026-10-13T00:15:00+00:00",
+      "awayQB": "Josh Allen",
+      "homeQB": "Matthew Stafford",
+      "modelMargin": 2.2182096586840405,
+      "modelTotal": 52.89000310830513,
+      "spread": {
+        "market": "spread",
+        "pick": "LA",
+        "line": -2.5,
+        "odds": -105,
+        "book": "DraftKings",
+        "rawProbability": 0.509,
+        "calibratedProbability": 0.5,
+        "selectedProbability": 0.5,
+        "breakEven": 0.5121951219512195,
+        "edge": -0.0121951219512195,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.7486111333333334,
+        "oddsBoard": [
+          {
+            "line": -2.5,
+            "odds": -105,
+            "book": "DraftKings",
+            "breakEven": 0.5121951219512195,
+            "edge": -0.0121951219512195,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": true
+          },
+          {
+            "line": -2.5,
+            "odds": -109,
+            "book": "Bally Bet",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0215311004784688,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": -2.5,
+            "odds": -109,
+            "book": "BetRivers",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0215311004784688,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": -2.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0238095238095238,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": false
+          }
+        ]
+      },
+      "total": {
+        "market": "total",
+        "pick": "UNDER",
+        "line": 53.5,
+        "odds": -110,
+        "book": "FanDuel",
+        "rawProbability": 0.562,
+        "calibratedProbability": 0.527272727272727,
+        "selectedProbability": 0.5068181818181817,
+        "breakEven": 0.5238095238095238,
+        "edge": -0.0169913419913421,
+        "minimumEdge": 0.01,
+        "qualifies": false,
+        "quoteAgeMinutes": 0.0652778,
+        "oddsBoard": [
+          {
+            "line": 53.5,
+            "odds": -110,
+            "book": "FanDuel",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0169913419913421,
+            "quoteAgeMinutes": 0.0652778,
+            "selected": true
+          },
+          {
+            "line": 52.5,
+            "odds": -109,
+            "book": "Bally Bet",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0183023181906459,
+            "quoteAgeMinutes": 0.4319444666666667,
+            "selected": false
+          },
+          {
+            "line": 52.5,
+            "odds": -109,
+            "book": "BetRivers",
+            "breakEven": 0.5215311004784688,
+            "edge": -0.0183023181906459,
+            "quoteAgeMinutes": 0.7152778000000001,
+            "selected": false
+          },
+          {
+            "line": 52.5,
+            "odds": -110,
+            "book": "DraftKings",
+            "breakEven": 0.5238095238095238,
+            "edge": -0.0205807415217009,
+            "quoteAgeMinutes": 0.7486111333333334,
+            "selected": false
+          }
+        ]
+      },
+      "moneyline": null,
+      "shadowTotal": null,
+      "qualifies": false,
+      "bestEdge": -0.0121951219512195
     }
   ],
   "gameResults": [
