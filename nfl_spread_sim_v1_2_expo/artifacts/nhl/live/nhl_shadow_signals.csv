@@ -1,0 +1,3 @@
+date,logged_at_utc,model_version,side_model,total_model,away,home,market,selection,line,odds,book,model_probability,break_even,edge,ev,total_projection,side_margin,placed,result,profit_units,nhl_game_id,game_state,final_away_score,final_home_score,graded_at_utc
+2026-09-30,2026-09-30T17:01:43.531446+00:00,v0.7.6,v0.7.4,v0.6.1,PIT,PHI,h2h,PIT,,127,Bovada,0.4712275320969018,0.4405286343612334,0.0306988977356683,0.0696864978599671,6.204247563349276,0.2520680693252921,False,,0.0,2026020006,LIVE,,,
+2026-09-30,2026-09-30T17:01:43.531446+00:00,v0.7.6,v0.7.4,v0.6.1,LAK,COL,h2h,COL,,-185,Hard Rock Bet,0.685137825370564,0.6491228070175439,0.0360150183530201,0.0554825958411391,6.243596713909923,0.9900644748907944,False,,0.0,2026020007,FUT,,,
