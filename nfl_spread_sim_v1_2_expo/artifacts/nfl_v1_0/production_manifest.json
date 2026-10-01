@@ -1,0 +1,57 @@
+{
+  "model_name": "NFL v1.0 Production",
+  "status": "FROZEN_FORWARD_TEST",
+  "freeze_date": "2026-10-01",
+  "git_branch": "main",
+  "git_commit": "e438a29a73a2f66888af08673f310d1105bcff19",
+  "spread_model": {
+    "model": "Ridge",
+    "alpha": 1.0,
+    "feature_count": 10,
+    "probability_shrinkage_lambda": 0.4,
+    "minimum_edge": 0.01,
+    "rolling_window_weeks": 78,
+    "selector": "spread_stability_v28_raw"
+  },
+  "total_model": {
+    "model": "Ridge",
+    "alpha": 1.0,
+    "feature_count": 33,
+    "probability_shrinkage_lambda": 0.25,
+    "minimum_edge": 0.01,
+    "selector": "calibration_v28_raw"
+  },
+  "research_decisions": {
+    "spread_context_extra_features": "rejected",
+    "qb_safe_shrinkage": "rejected",
+    "opening_drive_features": "rejected",
+    "generic_injury_features": "rejected",
+    "qb_first_game_back_adjustment": "rejected",
+    "spread_higher_ridge_alpha": "rejected",
+    "total_higher_ridge_alpha": "rejected_for_production"
+  },
+  "spread_historical_validation": {
+    "bets": 220,
+    "settled": 214,
+    "pushes": 6,
+    "win_rate": 0.5327102803738317,
+    "units": 8.70263153136898,
+    "roi": 0.03955741605167718,
+    "worst_season_roi": -0.023726
+  },
+  "forward_test_policy": {
+    "start_season": 2026,
+    "production_changes_from_forward_results": false,
+    "notes": "Week 4 and future games are forward validation. Do not retune NFL v1.0 using forward results."
+  },
+  "production_files": {
+    "score_model/multi_book_live_v31.py": "0e3b71b46ad50828bcba1be129dad04dcdae298b7ac326eeebf9c4e53d22fdfd",
+    "score_model/live_raw_qb_v29.py": "dcf6e3fe164ba38b28f656c941336eccdebd9ee1b29a03a2c5699cb337b363a2",
+    "score_model/refresh_auto_v51.sh": "6d330ce4cfb43bab1039259399cb1ec004f38e5fc58104dbf8d53cf6afce4b7d",
+    "score_model/export_mobile_v51.py": "1e25c7bba46a0ed82c274b6597a284d039080116e746e86a0deee55e05f1e72b",
+    "score_model/nfl_week_v51.py": "7a9945f1a76bd6d5b1c3fe4ede7e34222a4534d65220855225f90ebffe8f3c0c",
+    "artifacts/calibration_v28_raw/latest_params.json": "86e974c9d2df163a9d3c60d5549a19efb7383e238e7aeac24f5859089839311b",
+    "artifacts/calibration_v28_raw/calibrated_sides.csv": "1e965fe12dd65637bda6186a94f1747eeed990306ce2c0f096f624c72f54fbd0",
+    "artifacts/spread_stability_v28_raw/latest_params.json": "709ccc46c131865824df1e89dd6387b4b881063cecd950549fc697971bfcc37d"
+  }
+}
