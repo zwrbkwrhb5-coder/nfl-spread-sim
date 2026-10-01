@@ -37,6 +37,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas numpy
 
+      - name: Capture NHL closing-line snapshots
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+        run: |
+          python score_model/nhl/capture_clv_v079.py
+
       - name: Grade NHL shadow signals
         run: |
           python score_model/nhl/grade_shadow_signals_v078.py
@@ -50,7 +56,8 @@ jobs:
 
           git add \
             nfl_spread_sim_v1_2_expo/artifacts/nhl/live/nhl_shadow_signals.csv \
-            nfl_spread_sim_v1_2_expo/artifacts/nhl/live/nhl_shadow_summary.csv
+            nfl_spread_sim_v1_2_expo/artifacts/nhl/live/nhl_shadow_summary.csv \
+            nfl_spread_sim_v1_2_expo/artifacts/nhl/live/nhl_clv_snapshots.csv
 
           if git diff --cached --quiet; then
             echo "No NHL grading changes."
